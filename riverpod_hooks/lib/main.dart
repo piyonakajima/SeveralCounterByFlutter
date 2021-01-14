@@ -15,6 +15,8 @@ void main() {
 // 2.StateNotifierProviderを使ってcounterProviderを宣言。グローバルに宣言。
 final counterProvider = StateNotifierProvider((_) => Counter());
 
+
+// StateNotifier<**> -> **はStateという変数の型になる
 class Counter extends StateNotifier<int> {
   Counter() : super(0);
   void increment() => state++;
