@@ -1,4 +1,4 @@
-package com.piyonakajima.flutter_app
+package com.example.riverpod_hooks
 
 import io.flutter.embedding.android.FlutterActivity
 
